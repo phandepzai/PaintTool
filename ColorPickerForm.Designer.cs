@@ -71,11 +71,12 @@
             // 
             // txtHex
             // 
-            this.txtHex.Location = new System.Drawing.Point(97, 315);
+            this.txtHex.Location = new System.Drawing.Point(102, 316);
             this.txtHex.Name = "txtHex";
-            this.txtHex.Size = new System.Drawing.Size(100, 23);
+            this.txtHex.Size = new System.Drawing.Size(76, 23);
             this.txtHex.TabIndex = 2;
             this.txtHex.Text = "#FFFFFF";
+            this.txtHex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtHex.TextChanged += new System.EventHandler(this.txtHex_TextChanged);
             // 
             // btnOK
@@ -90,7 +91,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(140, 353);
+            this.btnCancel.Location = new System.Drawing.Point(157, 354);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 30);
             this.btnCancel.TabIndex = 0;
@@ -99,7 +100,7 @@
             // lblHex
             // 
             this.lblHex.AutoSize = true;
-            this.lblHex.Location = new System.Drawing.Point(52, 319);
+            this.lblHex.Location = new System.Drawing.Point(64, 319);
             this.lblHex.Name = "lblHex";
             this.lblHex.Size = new System.Drawing.Size(32, 15);
             this.lblHex.TabIndex = 3;
